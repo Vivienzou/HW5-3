@@ -6,11 +6,14 @@ I'll just tell you now that n=p*q with p and q a little "too close for comfort".
 n = 465425223039311122698944982674100700648607800945086109507022243989832434235392755390925153223240
 7850265642079868425916328810273416481567992145162141358151
 
-q = n**0.5                    #start with sqrt(n), since factors are closed enough
+start with sqrt(n), since factors are closed enough: 
+q = n**0.5                  
 
-int (q)                       #set q to integer so we can start rolling
+set q to integer so we can start rolling:            
+int (q)                   
 
-q =  next_probable_prime(q)   #comfortable for rolling test below
+comfortable for rolling test below                   
+q =  next_probable_prime(q)   
 
 p = n/q                       
 
