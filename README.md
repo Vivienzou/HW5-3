@@ -1,6 +1,6 @@
 HW5-3
 =====
-# (b) Crack my RSA cryptosystem by factoring n. HINT: The "factor" command will get you nowhere. 
+(b) Crack my RSA cryptosystem by factoring n. HINT: The "factor" command will get you nowhere. 
 I'll just tell you now that n=p*q with p and q a little "too close for comfort".
 
 n = 465425223039311122698944982674100700648607800945086109507022243989832434235392755390925153223240
